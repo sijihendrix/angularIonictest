@@ -11,6 +11,6 @@ defineCustomElements(window);
 if (environment.production) {
   enableProdMode();
 }
-
+// a new comment 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
